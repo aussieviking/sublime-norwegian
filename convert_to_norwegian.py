@@ -14,6 +14,6 @@ class NorwegianCommand(sublime_plugin.TextCommand):
 		self.convert_all(edit, 'ae', u'\u00E6')
 		self.convert_all(edit, 'Oe', u'\u00D8')
 		self.convert_all(edit, 'oe', u'\u00F8')
-		self.convert_all(edit, 'AA', u'\u00C5')
+		self.convert_all(edit, 'Aa', u'\u00C5')
 		self.convert_all(edit, 'aa', u'\u00E5')
 		
